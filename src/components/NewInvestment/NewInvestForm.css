@@ -1,0 +1,71 @@
+.form {
+    padding: 1rem;
+    max-width: 30rem;
+    margin: 2rem auto;
+    border-radius: 1rem;
+    background: linear-gradient(180deg, rgba(5,1,78,1) 0%, rgba(55,55,83,1) 50%);
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.3);
+  }
+  
+  .input-group {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1.5rem;
+  }
+  
+  .form label {
+    display: block;
+    margin-bottom: 0.25rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.65rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .form input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #261dbf;
+    border-radius: 0.25rem;
+    background-color: transparent;
+    color: #c2e9e0;
+    font-size: 1rem;
+  }
+
+  .form input::placeholder {
+    font-size: 0.8rem;
+    letter-spacing: 0.8px;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.3rem;
+    background: linear-gradient(180deg, #261dbf, #16125c);
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+  }
+  
+  .buttonAlt {
+    font-family: "Poppins", sans-serif;
+    border: none;
+    background: transparent;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background: linear-gradient(180deg, #1a1940, #0e0c3b);
+  }
+  
+  .buttonAlt:hover {
+    background: transparent;
+    color: #261dbf;
+  }
