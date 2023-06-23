@@ -17,3 +17,10 @@
     font-variant: small-caps;
     text-shadow: 2px 8px 6px rgba(0,0,0,0.2);
   }
+
+  @media (max-width: 800px) {
+    .header h1 {
+      font-size: 2rem;
+      line-height: 2.5rem;
+    }
+  }

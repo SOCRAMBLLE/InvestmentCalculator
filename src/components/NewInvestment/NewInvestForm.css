@@ -1,6 +1,7 @@
 .form {
     padding: 1rem;
     max-width: 30rem;
+    min-width: 300px;
     margin: 2rem auto;
     border-radius: 1rem;
     background: linear-gradient(180deg, rgba(5,1,78,1) 0%, rgba(55,55,83,1) 50%);
@@ -68,4 +69,44 @@
   .buttonAlt:hover {
     background: transparent;
     color: #261dbf;
+  }
+
+  @media (max-width: 800px) {
+    .form {
+      max-width: 95%;
+    }
+
+    .input-group p {
+      width: 45%;
+      margin: 2rem 0 2rem;
+    }
+
+    .form label {
+      font-size: 0.9rem;
+    }
+
+    .form input::placeholder {
+      font-size: 1rem;
+    }
+
+    .actions {
+      justify-content: space-around;
+      margin: 1rem 5%;
+    }
+
+    .button,
+    .buttonAlt {
+      width: 45%;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .input-group {
+      flex-wrap: wrap;
+      gap: 0;
+    }
+
+    .input-group p {
+      width: 95%;
+    }
   }
